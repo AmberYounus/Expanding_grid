@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: burlywood;
+}
+p{
+    font-size: 24px;
+}
+body{
+    margin: 0;
+    font-family: cursive;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+.container {
+  padding: 20px;
+  color: #fff;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.closebtn {
+  float: right;
+  color: #fff;
+  font-size: 35px;
+}
